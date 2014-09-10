@@ -1,0 +1,51 @@
+@import url("../storefront-paper/style.css");
+@import url("http://fonts.googleapis.com/css?family=Roboto|Gruppo");
+/*
+ Theme Name:   Storefront Paper Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  StoreFront Paper Child Theme
+ Author:       Andrew Nicholas
+ Template:     storefront-paper
+ Version:      1.0.0
+ Tags:         responsive-layout
+ Text Domain:  storefront-paper-child
+*/
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/* line 3, scss/_text.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #401800;
+}
+
+/* line 8, scss/_text.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gruppo', cursive;
+}
+
+/* line 12, scss/_text.scss */
+.header_logo {
+  display: inline-block;
+  width: 478px;
+  height: 52px;
+}
+
+/* line 18, scss/_text.scss */
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 0;
+  margin: 0;
+}
+
+/* line 26, scss/_text.scss */
+#masthead {
+  padding-bottom: 0px;
+  margin: 20px auto;
+}
+
+/* line 1, scss/_button.scss */
+.wpsc_buy_button {
+  background-color: #dd2b02;
+}

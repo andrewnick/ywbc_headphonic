@@ -1,0 +1,29 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto|Gruppo');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: $dark-brown;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Gruppo', cursive;
+}
+
+.header_logo {
+	display: inline-block;
+	width:478px;
+	height: 52px;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 0;
+	margin: 0;
+}
+
+#masthead {
+	padding-bottom: 0px;
+	margin: 20px auto;
+}
