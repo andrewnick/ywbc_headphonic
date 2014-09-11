@@ -46,6 +46,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 1, scss/_button.scss */
-.wpsc_buy_button {
+.wpsc_buy_button_container {
   background-color: #dd2b02;
+}
+
+/* line 1, scss/_header.scss */
+.site-header {
+  background-color: #f1c98d;
+  line-height: 0px;
+}
+
+/* line 6, scss/_header.scss */
+nav.main-navigation {
+  margin-right: 0;
+}
+
+/* line 10, scss/_header.scss */
+.header_logo {
+  padding-left: 15px;
+}
+
+/* line 1, scss/_site.scss */
+#page {
+  padding: 0px;
+}
+
+/* line 5, scss/_site.scss */
+#masthead {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 11, scss/_site.scss */
+#main {
+  margin: 0;
 }
